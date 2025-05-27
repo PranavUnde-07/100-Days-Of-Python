@@ -67,6 +67,53 @@ print(type(z))
 
 
 
+# ACCESSING CHARACTERS IN A STRING
+# Characters in a string can be accessed using the index of the character.
+
+# Example:
+
+s = 'Hello, World!'
+print(s[0])
+print(s[7])
+
+# Output:
+
+# H
+# W
+
+# In the above example, we have accessed the first character of the string s using the index 0 
+# and the eighth character using the index 7.
+
+
+
+
+for character in s:
+    print(character)
+
+# Output:
+
+# H
+# e
+# l
+# l
+# o
+# ,
+#
+# W
+# o
+# r
+# l
+# d
+# !
+
+
+
+
+
+
+
+
+
 # Strings can be concatenated using the + operator.
 
 # Example:
